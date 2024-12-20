@@ -13,10 +13,4 @@
 - Navegador moderno (Chrome, Firefox, Edge, Safari).
 - Acceso a internet estable.
 
-## Instalación y Ejecución
 
-1. **clonar el repositorio**
-
-   ```intento
-   clon de git https://github.com/tu-usuario/NeveLA.git
-   cd NeveLA
