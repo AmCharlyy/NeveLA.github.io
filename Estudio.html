@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consejos de Estudio</title>
+    <link rel="stylesheet" href="StyleEstudio.css">
+    <script src="Estudio.js" defer></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">WellNess</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Regresar</a></li>
+                    <li><a href="#retos">Retos</a></li>
+                    <li><a href="#quiz">Quiz en Vivo</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="retos" class="memory-challenge">
+        <div class="container">
+            <h2>Reto de Memoria</h2>
+            <p>Observa la siguiente lista de elementos. Tienes 30 segundos para memorizarlos.</p>
+            <div id="memory-list" class="memory-list"></div>
+            <button id="start-memory" class="cta-button">Iniciar Reto</button>
+        </div>
+    </section>
+
+    <section id="quiz" class="live-quiz">
+        <div class="container">
+            <h2>Quiz en Vivo</h2>
+            <p>Participa en un quiz para reforzar tus habilidades de estudio.</p>
+            <button id="start-quiz" class="cta-button">Comenzar Quiz</button>
+            <div id="quiz-container" class="quiz-container hidden">
+                <div id="question" class="quiz-question">Pregunta</div>
+                <div id="answers" class="quiz-answers"></div>
+                <button id="next-question" class="cta-button">Siguiente</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Tu Nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" id="correo" placeholder="Tu Correo Electrónico" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 WellNess. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

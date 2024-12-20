@@ -1,0 +1,273 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #888888;
+    overflow-x: hidden;
+}
+
+/* General */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+.main-header {
+    background: linear-gradient(135deg, #1a5bbe, #1a8cbe);
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: -1px 13px 10px rgb(0 0 0 / 25%);
+}
+
+.main-header .logo {
+    font-size: 2.2em;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.main-header .logo span {
+    color: #c8e6c9;
+}
+
+.nav-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.21em;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #c8e6c9;
+}
+
+
+.hero-section {
+    background: linear-gradient(135deg, #1a1a1a, #292929);
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 10px solid #e7e1b5;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 0%);
+}
+
+.hero-section h1 {
+    font-size: 3.5em;
+    color: #eae6ca;
+    margin-bottom: 20px;
+    animation: fadeIn 2s;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 30px;
+    animation: fadeIn 2.5s;
+}
+/*Boton Comenzar*/
+.cta-button {
+    padding: 12px 30px;
+    font-size: 1.1em;
+    background-color: #3268bb;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.45);
+    transition: all 0.4s ease;
+    animation: fadeIn 3s;
+}
+
+.cta-button:hover {
+    background-color: #648fd0;
+    transform: translateY(-3px);
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+section {
+    background: linear-gradient(45deg, #1a1a1a, #292929);
+    text-align: center;
+    padding: 60px 20px;
+    margin: 0;
+    border-bottom: 10px solid #dfdbbd;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    color: #eae6ca;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Sobre Nosotros */
+.about-section .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+/*Botones de Sobre nosotros*/
+.feature-card {
+    background: linear-gradient(45deg, #124da7, #3182ff91);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgb(0 0 0 / 45%);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+    background-color:#91b1e2;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Consejos de Estudio */
+.study-tips-section .tips-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+/*Consejos botones*/
+.tip-item {
+    background: linear-gradient(45deg, #124da7, #3182ff91);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0 0 0 / 45%);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.tip-item:hover {
+    transform: translateY(-5px);
+    background-color: #91b1e2;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Recursos de Salud */
+.health-resources-section .resource-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.resource-card {
+    background: linear-gradient(45deg, #124da7, #3182ff91);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.resource-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    background-color: #91b1e2;
+    transform: translateY(-5px);
+}
+
+/* Contacto */
+.contact-section .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #0f1321;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgb(0 0 0 / 45%);
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+/*Contacto*/
+.contact-form input{
+    background:#1c1f28;
+    width:96%;
+    padding:12px;
+    border:1px solid #000000;
+    border-radius:5px;
+}
+.contact-form textarea {
+    background-color:#1c1f28;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form .submit-button {
+    background-color: #3268bb;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.contact-form .submit-button:hover {
+    background-color: #5c019d;
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #1a5bbe, #1a8cbe);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 1em;
+    letter-spacing: 1px;
+}

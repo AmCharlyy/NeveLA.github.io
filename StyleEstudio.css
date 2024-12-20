@@ -1,0 +1,137 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; 
+    color: #ffffff; 
+}
+
+.hidden {
+    display: none;
+}
+
+/* Encabezado */
+.main-header {
+    background-color: #1a5bbe; 
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #c8e6c9; 
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #91b1e2; 
+}
+
+/* Contenedor general */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Sección de retos */
+.memory-challenge, .live-quiz, .contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #292929; 
+}
+
+.memory-list, .quiz-container {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.memory-item {
+    background-color: #1a1a1a; 
+    color: #ffffff; 
+    padding: 10px 20px;
+    border: 1px solid #324da7; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Botones de llamada */
+.cta-button {
+    background-color: #3268bb; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #648fd0; 
+    transform: translateY(-3px);
+}
+
+/* Formulario */
+.contact-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #1a1a1a; 
+    color: #ffffff; 
+    border: 1px solid #324da7; 
+    border-radius: 5px;
+}
+
+.contact-form input::placeholder, 
+.contact-form textarea::placeholder {
+    color: #91b1e2; 
+}
+
+.contact-form button.submit-button {
+    background-color: #1a5bbe; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button.submit-button:hover {
+    background-color: #648fd0; 
+}
+
+/* Pie de página */
+footer {
+    background-color: #292929; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 5px solid #1a5bbe; 
+}
