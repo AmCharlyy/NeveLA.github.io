@@ -13,18 +13,7 @@
 - Navegador moderno (Chrome, Firefox, Edge, Safari).
 - Acceso a internet estable.
 
-## Cómo Ejecutar
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/NeveLA/NeveLA.github.io.git
-   ```
-2. Navega al directorio del proyecto:
-   ```bash
-   cd NeveLA.github.io
-   ```
-3. Abre el archivo `index.html` en tu navegador.
+[NeveLA.github.io](https://NeveLA.github.io)
 
 ¡Eso es todo! Disfruta explorando la página.
-
-
